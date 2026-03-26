@@ -1,0 +1,19 @@
+{
+  "AutoDetect": true,
+  "ShowLog": false,
+  "Headers": [
+    "urgent.*action|verify.*account|password.*reset|account.*suspend|unusual.*activity|security.*alert|unauthorized.*access",
+    "cuenta.*suspendida|verificar.*cuenta|restablecer.*contrase[ñn]a|acci[oó]n.*inmediata|actividad.*inusual|alerta.*seguridad|acceso.*no autorizado"
+  ],
+  "Contents": [
+    "click here to verify|your account will be (closed|suspended|locked)|confirm your identity|within 24 hours|enter your (password|credentials)",
+    "haga clic aqu[ií] para verificar|su cuenta ser[aá] (cerrada|suspendida|bloqueada)|confirme su identidad|en las pr[oó]ximas 24 horas|ingrese su (contrase[ñn]a|credenciales)"
+  ],
+  "Emails": ["informationsecurity@savanamed.com"],
+  "ApiUrls": ["{url}/report?rid={rid}"],
+  "clientId": "f19f7176-b364-4a1b-aff7-9b2e5dffc193",
+  "tenantId": "ef2c2d67-3161-4497-9f96-62b7c9615e1f",
+  "ewsUrl": "https://outlook.office365.com/EWS/Exchange.asmx",
+  "useOAuth": true,
+  "DeleteDelaySeconds": 3
+}
